@@ -1,0 +1,5 @@
+<div>
+    <h1>List of Todos</h1>
+    <home-todo-item *ngFor="let todo of todos" [todo]="todo" (deleted)="onTodoDeleted()"></home-todo-item>
+</div>
+  
